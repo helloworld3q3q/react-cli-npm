@@ -1,0 +1,32 @@
+{
+  "name": "react-cli-npm",
+  "version": "1.0.0",
+  "description": "react-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "init": "bin/cli.js"
+  },
+  "keywords": [
+    "react-cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/helloworld3q3q/react-cli.git"
+  },
+  "author": "helloworld3q3q",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2"
+  },
+  "devDependencies": {
+    "chalk": "^2.4.2",
+    "cli-table": "^0.3.1",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.19.0",
+    "ora": "^3.2.0"
+  }
+}
